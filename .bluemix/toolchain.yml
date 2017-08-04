@@ -21,7 +21,7 @@ services:
     parameters:
       repo_name: "logistics-wizard-erp"
       repo_url: "https://github.com/IBM-Bluemix/logistics-wizard-erp"
-      type: fork
+      type: clone
       has_issues: false
   erp-build:
     service_id: pipeline
@@ -51,7 +51,7 @@ services:
     parameters:
       repo_name: "logistics-wizard-controller"
       repo_url: "https://github.com/IBM-Bluemix/logistics-wizard-controller"
-      type: fork
+      type: clone
       has_issues: false
   controller-build:
     service_id: pipeline
@@ -82,7 +82,7 @@ services:
     parameters:
       repo_name: "logistics-wizard-webui"
       repo_url: "https://github.com/IBM-Bluemix/logistics-wizard-webui"
-      type: fork
+      type: clone
       has_issues: false
   webui-build:
     service_id: pipeline
@@ -110,7 +110,7 @@ services:
     parameters:
       repo_name: "logistics-wizard-recommendation"
       repo_url: "https://github.com/IBM-Bluemix/logistics-wizard-recommendation"
-      type: fork
+      type: clone
       has_issues: false
   recommendation-build:
     service_id: pipeline
